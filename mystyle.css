@@ -1,0 +1,403 @@
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	padding-bottom :20px;
+}
+
+h1.headertop {
+	text-align: center;
+	text-shadow: 2px 2px #FFFF00;
+}
+
+h2{
+	text-align: center;
+}
+
+.homeprint {
+	font-size:24px;
+}
+
+#h2grocery {
+	border-style : double;
+	border-color : green;
+	border-width : 5px;
+
+}
+
+h6{
+	text-align: center;
+}
+
+.fineprint{
+	font-size :15px;
+}
+
+.link {
+	font-size: 20px;
+}
+
+.address {
+	font-size: 20px;
+}
+
+.service {
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+
+a:hover{
+	color: green; 
+}
+
+a:visited {
+	color: red;
+}
+
+a:active {
+	background-color: cyan;
+	color: maroon;
+}
+
+#groceryitem{
+	padding: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width : 700px;
+	border-style : double;
+	border-color : green;
+	border-width : 5px;
+	background-color: AliceBlue;
+	vertical-align: middle;
+}
+
+.grocerytitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	padding-top: 10px;
+
+}
+
+.groceryprice {
+	font-size: 25px;
+	padding-bottom:20px;
+}
+
+#h2electronics {
+	border-style : double;
+	border-color : orange;
+	border-width : 5px;
+
+}
+
+#electronicitem{
+	padding: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width : 700px;
+	border-style : double;
+	border-color : yellow;
+	border-width : 5px;
+	background-image: url("blueback.png");
+	vertical-align: middle;
+}
+
+.electronictitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	padding-top: 10px;
+
+}
+
+.electronicprice {
+	font-size: 25px;
+	padding-bottom:20px;
+}
+
+table, th, td {
+	border: 1px solid black;
+	text-align: center;
+
+}
+
+.page5 {
+	background-image: url("blueback.png");
+	background-repeat: repeat-y;
+}
+
+#promotion {
+	background-image: url("blueback.png");
+	background-repeat: repeat;
+	opacity: 0.9;
+	visibility: visible;
+	float: left;
+}
+
+#storephone {
+	position: absolute;
+	left: 850px;
+	top: 320px;
+}
+
+#disclaimer {
+clear : left;
+}
+
+img.icon{ 
+	vertical-align: bottom;
+}
+
+.header {
+    background-color: crimson;
+    padding: 20px;
+    text-align: center;
+}
+
+.topnav a {
+	display: inline-block; 
+	color: red;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: aquamarine;
+	padding: 20px;
+	padding-left:3.5%;
+	padding-right:3.5%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 5%;
+   }
+
+.row:after {
+	content: "";
+	display: table; 
+	clear: both;
+}
+
+.column.side.left {
+	background-color: LawnGreen;
+	width: 15%;
+	height:100%;
+	float:left;
+}
+
+.column.side.right {
+	background-color: LawnGreen;
+	width: 15%;
+	float:right;
+}
+
+.column.main {
+	width: 70%;
+	float:left;
+}
+
+.footer {
+	background-color: DarkSlateBlue;
+	width:100%;
+	text-align: center;
+	float:left;
+}
+
+
+/* Assignment 3 */
+.user {
+	background-color:  #ccf5ff;
+	font-size: 22px;
+	border-style:solid;
+	padding-left:20px;
+	width: 70%;
+}
+
+#user_submit {
+	width: 20em;  
+	height: 2em;
+	margin-left: 35%;
+}
+
+.collapsible {
+	background-color: PowderBlue;
+	color: #444444;
+	font-size: 28px;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	padding-bottom:20px;
+	text-align: Center;
+	border: groove;
+	outline: none;
+	transition: 0.4s;
+}
+
+.active, .collapsible:hover {
+	background-color: #ccc;
+}
+
+.panel {
+	padding: 0 18px;
+	background-color: #e6f9ff;
+	display: none;
+	overflow: hidden;
+	font-family: Georgia, serif;
+	font-size: 22px;
+}
+
+.resumeSize {
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size: 22px;
+	background-color: Brown;
+	float: center;
+	width: 60%;
+	margin-top:40px;
+	margin-bottom:40px;
+	margin-left: 20%;
+	margin-right: 20%
+}
+.colorChange {
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size: 22px;
+	float: center;
+	background-color: Pink;
+	color: blue;
+}
+
+#quizMain {
+	padding:2px;
+	padding-left: 20px;
+}
+
+#quizStart {
+	width: 300px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left: 4%;
+	padding-right: 4%;
+	margin-left: 40%;
+	margin-right: 40%;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+#quizNext {
+	float: right;
+	margin-right: 10px;
+	width: 120px;
+	height: 40px;
+	font-size: 25px;
+	background-color: DodgerBlue;
+}
+
+#quizSkip {
+	float: right;
+	margin-right: 20px;
+	width: 120px;
+	height: 40px;
+	font-size: 25px;
+	background-color: DeepSkyBlue;
+}
+
+#quizMain {
+	font-size: 30px;
+}
+
+#quizResult {
+	font-size: 30px;
+	font-family: Verdana, san-serif;
+	color: Chartreuse;
+}
+
+#quizAnswerButton {
+	font-size: 30px;
+	background-color: Gold;
+	margin: 20px;
+	width: 200px;
+	height: 70px;
+}
+
+.ansQuestion {
+	margin-left: 10px;
+	font-size: 25px;
+	padding: 10px;
+}
+
+.ansAnswer {
+	margin-left: 20px;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Trebuchet MS, sans-serif;
+
+}
+
+#quizAnswerPanel{
+	border: dashed;
+	margin-bottom:50px;
+}
+
+/* Assignment 4 */
+
+.bookSquare {
+	border: solid;
+	padding: 5px;
+	margin: 5px;
+	display: block;
+	text-align: left;
+}
+
+.bookImg {
+	text-align: center;
+	padding-top: 40px;
+}
+
+.bookText {
+
+	text-align: center;
+	font-size: 20px;
+	padding: 20px;
+	font-size: 28px;
+	font-family: Noto Sans, sans-serif;
+} 
+
+.bookButton {
+	margin-left: 45%;
+	margin-top: 40px;
+	padding : 10px;
+	font-size: 20px;
+}
+
+input.bookButton {
+	width: 20px;
+	height: 20px;
+}
+
+.bookButtonText {
+	font-size: 30px;
+}
+
+.myCart {
+	height: 50px;
+	width: 100%;
+	font-size: 30px;
+	background-color: BlueViolet;
+	color: lime;
+}
+
+#myCartPanel {
+	display: none;
+	border: dotted;
+	background-color: gold;
+}
+
+.bookPanel {
+	padding: 5px;
+	border: ridge;
+	display: none;
+}
+
+#totalPrice{
+	font-size:30px;
+	font-family: Gill Sans, sans-serif	;
+	color: RebeccaPurple;
+	padding: 5px;
+	
+}

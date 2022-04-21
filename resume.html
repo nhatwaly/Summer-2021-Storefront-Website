@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Resume - CS4301 Assignment 2 - Nhat Pham</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+</head>
+<body>
+
+<div class="header">
+	<p>Date/Time: <span id="datetime"></span></p>
+	<h1>Header</h1>
+	<p>This is the header</p>
+</div>
+
+<div class="row">
+<div class="topnav">
+  <a href="home.html">Home Page</a>
+  <a href="Grocery.html">Grocery</a>
+  <a href="theElectronics.html">Electronics</a>
+  <a href="MyItems.html">My Items</a>
+  <a href="contact.html">Contact Us</a>
+  <a href="resume.html">Resume</a>
+  <a href="quiz.html">Quiz</a>
+  <a href="sell-books.html">Sell Books</a>
+</div>
+</div>
+
+<div class="row">
+
+  <div class="column side left">
+    <h2>Left Side</h2>
+    <p>This is the left side of the page</p>
+	<button class="colorChange" onclick="changeWebColor()">Click here to change the background color of page to pink</button>
+  </div>
+  <div class="column side right">
+    <h2>Right Side</h2>
+    <p>This is the right side of the page</p>
+  </div>
+	<div class="column main" id="mainColumn">
+
+
+	<h1 class="headertop"> RESUME PAGE <h1>
+	<h6 class="fineprint"> Resume page here. </h6>
+	
+	<button class="collapsible" id="paneltag1">Contact Information</button>
+	<div class="panel" id="panel1">
+	<p style="font-weight:bold">Nhat Minh Pham</p>
+	<p>3238 Shadowwalk Dr, Houston, TX, 77082</p>
+	<p>(832)997-5569</p>
+	<p>phamnhattv@gmail.com</p>
+	<p>nmp180000@utdallas.edu</p>
+	</div>
+
+	<button class="collapsible" id="paneltag2">Work Experience</button>
+	<div class="panel" id="panel2">
+	<p>Professional work experience : none</p>
+	<p>Social work experience : Volunteer and social club activities</p>
+	<p>Looking for an internship in the Computer Science or Software Engineering field</p>
+	</div>
+
+	<button class="collapsible" id="paneltag3">Education</button>
+	<div class="panel" id="panel3">
+	<p style="font-weight: bold">Bachelor’s Degree in Computer Science </p>
+	<p style="font-style: italic">The University of Texas at Dallas, Richardson, TX - 2019 to Present<p> <br>
+	<p style="font-weight: bold">Associate in Science - High Honors </p>
+	<p style="font-style: italic">Houston Community College System, Houston, TX - Graduated 2019<p>
+	
+	</div>
+	
+	<button class="collapsible" id="paneltag4">Skills</button>
+	<div class="panel" id="panel4">
+	<p>Languages: Vietnamese and English</p>
+	<p>Microsoft Office Suite skills: Word, Excel, PowerPoint</p>
+	<p>Graphic skills: Adobe Photoshop, Adobe After Effect, Corel Draw</p>
+	<p>Programming languages: Java and Python</p>
+	</div>
+	
+	<br>
+	<button class="resumeSize" onclick="changeResumeSize()">Click here to change the font size of resume section to 30px</button>
+
+
+    
+	</div>
+  <div class="footer">
+  <h2>Footer</h2>
+  <p>This is the footer</p>
+  <p>By Nhat Pham - nmp180000</p>
+  </div>
+
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

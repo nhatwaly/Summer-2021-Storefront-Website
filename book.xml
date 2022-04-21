@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Booklist>
+	<Book>
+		<Title>How to survive in UT Dallas</Title>
+		<Author>Enarc Temoc</Author>
+		<Edition>1st</Edition>
+		<Year>2020</Year>
+		<Price>$19.99</Price>
+	</Book >
+	<Book>
+		<Title>How to survive in UT Dallas 2</Title>
+		<Author>Enarc Temoc</Author>
+		<Edition>1st</Edition>
+		<Year>2020</Year>
+		<Price>$19.99</Price>
+	</Book>
+	<Book>
+		<Title>How to survive in UT Dallas 3</Title>
+		<Author>Enarc Temoc</Author>
+		<Edition>1st</Edition>
+		<Year>2020</Year>
+		<Price>$19.99</Price>
+	</Book>
+	<Book>
+		<Title>How to survive in UT Dallas 4</Title>
+		<Author>Enarc Temoc</Author>
+		<Edition>1st</Edition>
+		<Year>2020</Year>
+		<Price>$19.99</Price>
+	</Book>
+	<Book>
+		<Title>How to survive in UT Dallas 5</Title>
+		<Author>Enarc Temoc</Author>
+		<Edition>1st</Edition>
+		<Year>2020</Year>
+		<Price>$19.99</Price>
+	</Book>
+	<Book>
+		<Title>How to survive in UT Dallas 6</Title>
+		<Author>Enarc Temoc</Author>
+		<Edition>1st</Edition>
+		<Year>2020</Year>
+		<Price>$19.99</Price>
+	</Book>
+	<Book>
+		<Title>UT Dallas Places & Activities Student Union</Title>
+		<Author>Crane Comet</Author>
+		<Edition>1st</Edition>
+		<Year>2021</Year>
+		<Price>$9.99</Price>
+	</Book>
+	<Book>
+		<Title>UT Dallas Places & Activities McDermott Library</Title>
+		<Author>Crane Comet</Author>
+		<Edition>1st</Edition>
+		<Year>2021</Year>
+		<Price>$9.99</Price>
+	</Book>
+	<Book>
+		<Title>UT Dallas Places & Activities Sport Complex</Title>
+		<Author>Crane Comet</Author>
+		<Edition>1st</Edition>
+		<Year>2021</Year>
+		<Price>$9.99</Price>
+	</Book>
+	<Book>
+		<Title>UT Dallas Places & Activities Theatre</Title>
+		<Author>Crane Comet</Author>
+		<Edition>1st</Edition>
+		<Year>2021</Year>
+		<Price>$9.99</Price>
+	</Book>
+	<Book>
+		<Title>UT Dallas Places & Activities Visual Arts Studio</Title>
+		<Author>Crane Comet</Author>
+		<Edition>1st</Edition>
+		<Year>2021</Year>
+		<Price>$9.99</Price>
+	</Book>
+	<Book>
+		<Title>UT Dallas Places & Activities Green Center</Title>
+		<Author>Crane Comet</Author>
+		<Edition>1st</Edition>
+		<Year>2021</Year>
+		<Price>$9.99</Price>
+	</Book>
+</Booklist>

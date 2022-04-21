@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz - CS4301 Assignment 2 - Nhat Pham</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+<div class="header">
+	<p>Date/Time: <span id="datetime"></span></p>
+	<h1>Header</h1>
+	<p>This is the header</p>
+</div>
+
+<div class="row">
+<div class="topnav">
+  <a href="home.html">Home Page</a>
+  <a href="Grocery.html">Grocery</a>
+  <a href="theElectronics.html">Electronics</a>
+  <a href="MyItems.html">My Items</a>
+  <a href="contact.html">Contact Us</a>
+  <a href="resume.html">Resume</a>
+  <a href="quiz.html">Quiz</a>
+  <a href="sell-books.html">Sell Books</a>
+  
+</div>
+</div>
+
+<div class="row">
+
+  <div class="column side left">
+    <h2>Left Side</h2>
+    <p>This is the left side of the page</p>
+	<button class="colorChange" onclick="changeWebColor()">Click here to change the background color of page to pink</button>
+  </div>
+  <div class="column side right">
+    <h2>Right Side</h2>
+    <p>This is the right side of the page</p>
+  </div>
+	<div class="column main" id="mainColumn">
+
+
+	<h1 class="headertop"> QUIZ PAGE <h1>
+	<h6 class="fineprint"> This is a quiz about my resume </h6>
+	
+	<button id="quizStart" type="submit" value="quizStart" onclick="quizStart()"> Start Quiz </button>
+	
+	<div id="quizMain" style="display:none">
+	<p id = "quizQuestion">Question<p>
+	
+	<button id="ans1" type="button" value="0" onclick="checkAnswer(1)" style="font-size:20px;padding:10px"> Answer 1 </button>
+	<button id="ans2" type="button" value="1" onclick="checkAnswer(2)" style="font-size:20px;padding:10px"> Answer 2 </button>
+	<button id="ans3" type="button" value="2" onclick="checkAnswer(3)" style="font-size:20px;padding:10px"> Answer 3 </button>
+	<button id="ans4" type="button" value="3" onclick="checkAnswer(4)" style="font-size:20px;padding:10px"> Answer 4 </button>
+    <p id="questionCheck"></p>
+	<br>
+	<button id="quizNext" type="submit" value="quizNext" onclick="quizNext()"> Next </button>
+	<button id="quizSkip" type="submit" value="quizSkip" onclick="quizSkip()"> Skip </button>
+	</div>
+	
+	<p id="quizStatus" style="font-size:40px"></p>
+	
+	
+	
+	<div id="quizResult" style="display:none">
+	<p id="quizScore">Score: <span id="quizScoreNumber"></span><p>
+	<p id="quizTime" style="margin:0;display:inline;float:left">Time: <span id="quizTimeNumber"></span><p>
+	<p id="quizTime" style="margin:0;display:inline;float:left">s<p>
+	<br> <br>
+	</div>
+	
+	<button id="quizAnswerButton" type="submit" value="quizAnswerButton" onclick="showAnswer()"> Answer </button>
+	
+	<div id="quizAnswerPanel" style="display:none">
+	<p class="ansQuestion"> 1. What is my UTD email address?</p>
+	<p class="ansAnswer"> -nmp180000@utdallas.edu</p>
+	<p class="ansQuestion"> 2. Where did I graduate with an Associate in Science Degree?</p>
+	<p class="ansAnswer"> -Houston Community College System</p>
+	<p class="ansQuestion"> 3. What color is my car?</p>
+	<p class="ansAnswer"> -White</p> 
+	<p class="ansQuestion"> 4. What is my favourite sport?</p>
+	<p class="ansAnswer"> -Soccer</p>
+	<p class="ansQuestion"> 5. What programming language can I use?</p>
+	<p class="ansAnswer"> -Java</p>
+	</div>
+	
+	
+	
+	</div>
+  <div class="footer">
+  <h2>Footer</h2>
+  <p>This is the footer</p>
+  <p>By Nhat Pham - nmp180000</p>
+  </div>
+
+</div>
+
+</body>
+</html>

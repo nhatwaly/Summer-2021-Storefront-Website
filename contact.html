@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact - CS4301 Assignment 2 - Nhat Pham</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+
+<div class="header">
+	<p>Date/Time: <span id="datetime"></span></p>
+	<h1>Header</h1>
+	<p>This is the header</p>
+</div>
+
+<div class="row">
+<div class="topnav">
+  <a href="home.html">Home Page</a>
+  <a href="Grocery.html">Grocery</a>
+  <a href="theElectronics.html">Electronics</a>
+  <a href="MyItems.html">My Items</a>
+  <a href="contact.html">Contact Us</a>
+  <a href="resume.html">Resume</a>
+  <a href="quiz.html">Quiz</a>
+  <a href="sell-books.html">Sell Books</a>
+</div>
+</div>
+
+<div class="row">
+
+  <div class="column side left">
+    <h2>Left Side</h2>
+    <p>This is the left side of the page</p>
+	<button class="colorChange" onclick="changeWebColor()">Click here to change the background color of page to pink</button>
+  </div>
+  <div class="column side right">
+    <h2>Right Side</h2>
+    <p>This is the right side of the page</p>
+  </div>
+  <div class="column main" id="mainColumn">
+	<h1 class ="headertop"> Contact Page</h1>
+<img src="ULTRA S-MART.png" class="logo" alt="S-MART" width="1200" height="700">
+
+<p id="storephone">Phone number: (832) 238 88888</p>
+
+<div class="user"> 
+	<p style="font-size:30px"> Leave us your contact information: </p>
+	<p>We will contact you directly to address your issues</p>
+	<form id="userForm" onsubmit="validateForm();return false">
+		<label for="fname">First Name: </label>
+		<input type="text" id="firstname" name="firstname" size ="20" placeholder="John"/>
+		<br />
+
+		<label for="lname">Last Name: </label>
+		<input type="text" id="lastname" name="lastname" size ="20" placeholder="Doe" />
+		<br />
+
+		<label for="phone">Phone number:</label>
+		<input type="tel" id="phone" name="phone" size ="12" placeholder="xxx xxx-xxxx" />
+		<br />
+
+		<label for="gender">Select Gender: </label> <br />
+		<input type="radio" id="male" name="gender" value="male">
+		<label for="male">Male</label><br>
+		<input type="radio" id="female" name="gender" value="female">
+		<label for="female">Female</label><br>
+		<input type="radio" id="other" name="gender" value="other">
+		<label for="other">Other</label><br>
+		<br />
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" size ="40" placeholder="j.doe01@gmail.com" />
+		<br /> <br>
+
+		<label style="vertical-align: top;" for="comment">Comment: </label>
+		<textarea id="comment" name="comment" rows="5" cols="100"></textarea>
+		<br />
+		<br />
+		<button id="user_submit" type="submit" value="Submit"> Submit </button>
+		<p id="form_submit" style="color:red;margin-left: 28%;" ></p>
+	</form>
+	
+	<br><br>
+</div>
+
+<div class="link"> 
+	<p style="font-size:25px"> Our links: </p>
+	<a href="https://www.ultras-mart.com">Visit ULTRA S-MART!</a><br>
+	<a href="https://www.ultras-mart.com/promo">ULTRA S-MART Promotions</a><br>
+	<a href="https://www.ultras-mart.com/customer">ULTRA S-MART Customer Services</a><br>
+
+</div>
+
+<div class="address">
+
+<p style="font-size:25px"> Our addresses: </p>
+<dl>
+  <dt>Cactus Oak SuperCenter</dt>
+  <dd>600 Cactus Oak, Houston, TX, 77072 </dd>
+  <dt>Silky Way Neigborhood Mart</dt>
+  <dd>17034 Silky Way, Garland, TX, 75042</dd>
+  <dt>UTD SuperCenter</dt>	
+  <dd>800 W Campbell Rd, Richardson, TX 75080</dd>
+</dl>
+</div>
+
+<div class="service"> 
+	<form action="/form_input.php">
+		<br><p style="font-size:25px">Having problem?</p>
+		<input type="radio" id="service1" name="service">
+		<label for="service1">Store</label><br>
+		<input type="radio" id="service2" name="service">
+		<label for="service2">Product</label><br>  
+		<input type="radio" id="service3" name="service">
+		<label for="service3">Service</label><br><br>
+		<label for="serviceinput">Please tell us your problem:</label>
+		<input type="text" id="serviceinput" name="serviceinput" style="width:1000px;height:20px;">
+		<input type="submit" value="Submit">
+	</form>
+</div>
+    
+</div>
+  <div class="footer">
+  <h2>Footer</h2>
+  <p>This is the footer</p>
+  <p>By Nhat Pham - nmp180000</p>
+  </div>
+
+</div>
+
+</body>
+<script type="text/javascript" src="scriptContact.js"></script>
+</html>
